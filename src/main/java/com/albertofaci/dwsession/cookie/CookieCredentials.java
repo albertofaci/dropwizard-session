@@ -1,4 +1,4 @@
-package com.albertofaci.dwsession;
+package com.albertofaci.dwsession.cookie;
 
 public class CookieCredentials {
 
