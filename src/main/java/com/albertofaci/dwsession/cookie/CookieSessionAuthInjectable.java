@@ -24,7 +24,7 @@ public class CookieSessionAuthInjectable<S> extends AbstractHttpContextInjectabl
 	@Override
 	public S getValue(HttpContext c) {
 		MultivaluedMap<String, String> allCookies = c.getRequest().getCookieNameValueMap();
-		String hashedLogin = allCookies.getFirst(CookieConstants.LOGIN_COOKIE_NAME);
+		String hashedLogin = allCookies.getFirst(CookieConstants.TOKEN_COOKIE_NAME);
 		String username = allCookies.getFirst(CookieConstants.USER_COOKIE_NAME);
 		String sessionId = allCookies.getFirst(CookieConstants.SESSION_COOKIE_NAME);
 		CookieCredentials cookieCredentials = new CookieCredentials(username, hashedLogin, sessionId);

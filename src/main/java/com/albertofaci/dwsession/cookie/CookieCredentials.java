@@ -3,12 +3,12 @@ package com.albertofaci.dwsession.cookie;
 public class CookieCredentials {
 
 	private String username;
-	private String hashedCredential;
+	private String token;
 	private String sessionId;
 	
-	public CookieCredentials(String username, String hashedCredential, String sessionId) {
+	public CookieCredentials(String username, String token, String sessionId) {
 		this.username = username;
-		this.hashedCredential = hashedCredential;
+		this.token = token;
 		this.sessionId = sessionId;
 	}
 	
@@ -18,11 +18,11 @@ public class CookieCredentials {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public String getHashedCredential() {
-		return hashedCredential;
+	public String getToken() {
+		return token;
 	}
-	public void setHashedCredential(String hashedCredential) {
-		this.hashedCredential = hashedCredential;
+	public void setToken(String token) {
+		this.token = token;
 	}
 
 	public String getSessionId() {
