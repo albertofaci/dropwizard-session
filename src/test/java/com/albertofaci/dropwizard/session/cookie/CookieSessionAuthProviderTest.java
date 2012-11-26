@@ -1,4 +1,4 @@
-package com.albertofaci.dwsession.cookie;
+package com.albertofaci.dropwizard.session.cookie;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -9,6 +9,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import com.albertofaci.dropwizard.session.cookie.CookieCredentials;
+import com.albertofaci.dropwizard.session.cookie.CookieSessionAuthProvider;
 import com.sun.jersey.core.spi.component.ComponentScope;
 import com.yammer.dropwizard.auth.Authenticator;
 

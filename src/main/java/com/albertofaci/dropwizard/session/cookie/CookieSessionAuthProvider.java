@@ -1,4 +1,4 @@
-package com.albertofaci.dwsession.cookie;
+package com.albertofaci.dropwizard.session.cookie;
 
 import com.sun.jersey.api.model.Parameter;
 import com.sun.jersey.core.spi.component.ComponentContext;

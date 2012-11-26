@@ -1,4 +1,4 @@
-package com.albertofaci.dwsession.cookie;
+package com.albertofaci.dropwizard.session.cookie;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;

@@ -1,4 +1,4 @@
-package com.albertofaci.dwsession.cookie;
+package com.albertofaci.dropwizard.session.cookie;
 
 public class CookieCredentials {
 
